@@ -5,6 +5,12 @@ data/
 *.jpg
 *.png
 
+# Ignore Model Weights
+*.pth
+*.pt
+*.ckpt
+best_model.pth
+
 # Ignore Virtual Environment (System specific)
 venv/
 *.pyc
