@@ -1,6 +1,5 @@
 # Ignore Data (Too large for GitHub)
-data/
-*.xlsx
+data/images/
 *.csv
 *.jpg
 *.png
