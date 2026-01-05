@@ -30,22 +30,21 @@ I used **Python 3.11** as it ensures compatibility with the specific CUDA-enable
 ```text
 Satellite_Housing_Valuation_DemoModel/
 │
-├── README.md               # Project Documentation
-├── requirements.txt        # Dependencies (Locked for Python 3.11 + CUDA)
+├── README.md               
+├── requirements.txt       
 ├── src/
-│   ├── dataset.py          # Custom PyTorch Dataset (Handles Images + Excel)
-│   ├── models.py           # Hybrid Neural Network (CNN + FFN)
-│   ├── train.py            # Training Loop (CUDA-enabled)
-│   ├── predict.py          # Inference Script (Actual vs Predicted Table)
-│   └── visualize.py        # Generates Regression Scatter Plots
+│   ├── data_fetcher.py     
+│   ├── dataset.py         
+│   ├── models.py           
+│   ├── train.py            
+│   └── predict.py         
 │
 ├── data/
-│   ├── train(1).xlsx       # Base Tabular Data
-|   ├── test2.xlsx          # Testing Data
-│   └── images/             # 22k Satellite Images (Fetched via Mapbox)
+│   ├── train(1).xlsx     
+|   ├── test2.xlsx
+│   └── images/            
 │
-└── best_model.pth      # Saved Model Weights
-
+└── best_model.pth      
 ```
 
 ---
