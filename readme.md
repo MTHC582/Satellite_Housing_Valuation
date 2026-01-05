@@ -160,4 +160,6 @@ The dataset used in this project is provided as an Excel file and contains struc
 
 All experiments and model training steps in this repository can be reproduced using the provided dataset and scripts.
 
-_*Further details are provided inside .py files itself.*_
+_*Further details are provided inside .py files itself.  
+  Model is trained without lat n long, and they are used only for the data\images\ 
+  one can modify or add the followin columns to make the model work more acc.*_
